@@ -31,6 +31,23 @@ export const Burger = () => {
           className={({ isActive }) =>
             clsx("nav-link", { "nav-link-active": isActive })
           }
+          to="/kupuna"
+        >
+          KUPUNA
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            clsx("nav-link", { "nav-link-active": isActive })
+          }
+          to="/gallery"
+        >
+          GALLERY
+        </NavLink>
+
+        <NavLink
+          className={({ isActive }) =>
+            clsx("nav-link", { "nav-link-active": isActive })
+          }
           to="/contact"
         >
           CONTACT

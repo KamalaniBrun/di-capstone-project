@@ -57,33 +57,6 @@ export const Home = () => {
             controls
             light={thumbnail}
           />
-          {/* <div className="thumbnail-container">
-            <img
-              className="thumbnail"
-              src="../images/thumbnail.png"
-              alt="thumbnail"
-            />
-            <iframe
-              width="450"
-              height="305"
-              src="https://www.youtube.com/embed/CgVrCkRdbK4"
-              title="YouTube video player"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          </div> */}
-          {/* <video
-            src="https://www.youtube.com/embed/CgVrCkRdbK4"
-            width="450"
-            height="305"
-            poster="../images/thumbnail.png"
-            controls
-          > */}
-          {/* <source
-              src="https://www.youtube.com/embed/CgVrCkRdbK4"
-              type="video"
-            /> */}
-          {/* </video> */}
         </div>
       </div>
       <Footer />

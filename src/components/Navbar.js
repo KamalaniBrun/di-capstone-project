@@ -57,6 +57,8 @@ export const Navbar = () => {
           >
             CONTACT
           </NavLink>
+
+          {/* <div className="dropdown"> */}
           <NavLink
             className={({ isActive }) =>
               clsx("nav-link", { "nav-link-active": isActive })
@@ -65,6 +67,14 @@ export const Navbar = () => {
           >
             BLOG
           </NavLink>
+
+          {/* <div className="dropdown-content">
+              <Link className="submenu-item" to="/articles">
+                ARTICLES
+              </Link>
+            </div>
+          </div> */}
+
           <NavLink
             className={({ isActive }) =>
               clsx("nav-link", { "nav-link-active": isActive })

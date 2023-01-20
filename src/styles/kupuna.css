@@ -4,16 +4,48 @@
   justify-content: center;
   text-align: center;
   font-weight: 500;
-  width: 75%;
+  width: 70%;
   margin: auto;
   padding: 20px 0 20px 0;
 }
+
+.kupuna {
+  display: flex;
+  flex-direction: column;
+  margin-left: 150px;
+}
+
+.kupuna-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* .kupuna-section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+  width: 100%;
+} */
 
 .kupuna-body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70%;
-  padding: 30px 0 30px;
+  width: 30%;
+  /* margin-right: 50px; */
   margin: auto;
+}
+
+.kupuna-img-container {
+  display: flex;
+  height: 20rem;
+  width: 50%;
+}
+
+.kupuna-img {
+  display: flex;
+  align-items: flex-end;
+  border: solid 2px;
 }

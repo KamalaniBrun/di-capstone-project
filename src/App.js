@@ -6,6 +6,7 @@ import { Kupuna } from "./components/Kupuna";
 import { Gallery } from "./components/Gallery";
 import { Contact } from "./components/Contact";
 import { Blog } from "./components/Blog";
+// import { Articles } from "./components/Articles";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
+        {/* <Route path="/articles" element={<Articles />} /> */}
       </Routes>
     </div>
   );

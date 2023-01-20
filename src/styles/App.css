@@ -9,6 +9,7 @@
 @import url("dropdown.css");
 @import url("contact.css");
 @import url("blog.css");
+@import url("articles.css");
 
 * {
   font-family: "Montserrat", sans-serif;

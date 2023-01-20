@@ -1,11 +1,27 @@
 import { Link } from "react-router-dom";
-import bannerVid from "../images/website-banner.mp4";
+// import bannerVid from "../images/website-banner.mp4";
 import { Carousel } from "./Carousel";
 import { CarouselItem } from "./CarouselItem";
 
 export const Banner = () => {
   return (
     <Carousel>
+      <CarouselItem>
+        <div className="item3">
+          <div className="item-body">
+            Pihana Ka `Ikena is a non-profit that perpetuates traditional
+            Hawaiian healing arts through education and practical application.
+            The hui's mission is to address health, social, and economic
+            disparities afflicting Native Hawaiians through education of
+            cultural practices.
+          </div>
+
+          <Link to="/contact" className="btn">
+            Contact Us
+          </Link>
+        </div>
+      </CarouselItem>
+
       <CarouselItem>
         <div className="item1">
           <div className="item-body">
@@ -35,7 +51,6 @@ export const Banner = () => {
           </Link>
         </div>
       </CarouselItem>
-      {/* <CarouselItem className="item3">Item 3</CarouselItem> */}
     </Carousel>
   );
 };
