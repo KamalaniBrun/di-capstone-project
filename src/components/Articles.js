@@ -20,7 +20,7 @@ export const Articles = () => {
           </p>
 
           <a
-            className="btn"
+            className="button"
             href="https://midweekkauai.com/kauai-coverstory/sharing-culture/"
             target="_blank"
             rel="noreferrer"
@@ -39,7 +39,7 @@ export const Articles = () => {
           </p>
 
           <a
-            className="btn"
+            className="button"
             href="https://oiwileaders.com/awardees/sean-chun"
             target="_blank"
             rel="noreferrer"
@@ -58,7 +58,7 @@ export const Articles = () => {
           </p>
 
           <a
-            className="btn"
+            className="button"
             href="https://www.thegardenisland.com/2019/03/23/hawaii-news/healing-with-hawaiian-herbs/"
             target="_blank"
             rel="noreferrer"
@@ -77,7 +77,7 @@ export const Articles = () => {
           </p>
 
           <a
-            className="btn"
+            className="button"
             href="https://issuu.com/savvy360/docs/savvy360-kauai-22v1-?fr=sNjRmNjQwMTU2Mjg"
             target="_blank"
             rel="noreferrer"

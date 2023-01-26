@@ -1,1 +1,58 @@
+h1,
+h3 {
+  text-align: center;
+}
 
+h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+  margin: 20px;
+  /* max-height: 300px; */
+}
+
+.card {
+  display: grid;
+  width: 350px;
+  height: 560px;
+  background-color: white;
+  box-shadow: 0 3px 5px #00000060;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 30px;
+}
+
+.description img {
+  display: none;
+}
+
+.button {
+  color: white;
+  background: #4070ff;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  justify-self: flex-end;
+  width: fit-content;
+}
+
+.button:hover {
+  background-color: blueviolet;
+}
+
+.button-bg {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  top: 800px;
+  height: 70px;
+  width: 300px;
+  background-color: white;
+  padding-bottom: 13px;
+}

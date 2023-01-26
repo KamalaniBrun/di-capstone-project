@@ -47,7 +47,7 @@ export const About = () => {
         <h4 className="board-section-header">Ginger Saiki</h4>
         <p>
           Ginger Saiki lives in Wailua and has been a practitioner of
-          ho`opnopono with Aunty Malia Craver and la`au lapa`au under Levon
+          ho`oponopono with Aunty Malia Craver and la`au lapa`au under Levon
           Ohai. Ginger is also on the board of Ho`ola Lahui as well as the
           Kaua`i Kupuna Council of Traditional Hawaiian Healing Arts. She is a
           very active member and instructor with Halau Kahelahela.
@@ -58,7 +58,7 @@ export const About = () => {
           Kau`ilani Kahalewai has been a Hawaiian Practitioner specializing in
           Ho’oponopono since 1997. She began studying under her teachers, Norma
           Takeshita and Miriam Kaohi-Joseah and worked alongside mentors such as
-          Kahuna Morna Simiona. Kauilani also studied Theta Healing since the
+          Kahuna Morna Simiona. Kau`ilani also studied Theta Healing since the
           early 2000’s and has since become an instructor. In addition to the
           Kaua’i Kupuna Council, she sits on the Kaua’i Burial Council and the
           Kaneioluma Heiau Council in Po’ipu.

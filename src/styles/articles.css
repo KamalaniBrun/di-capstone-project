@@ -18,15 +18,17 @@
 .article-card {
   display: flex;
   flex-direction: column;
-  border: solid 3px;
+  border-radius: 8px;
   width: 12rem;
   padding: 20px;
   align-items: center;
   text-align: center;
+  box-shadow: 0 3px 5px #00000060;
 }
 
 .article-card > p {
   color: gray;
+  padding: 10px 0 20px 0;
 }
 
 .article {
