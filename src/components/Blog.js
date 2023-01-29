@@ -4,21 +4,6 @@ import { Navbar } from "./Navbar";
 import { useEffect, useState } from "react";
 
 export const Blog = () => {
-  // const options = {
-  //   method: "GET",
-  //   headers: {
-  //     "X-RapidAPI-Key": "a9ceee90a3msh1c14f75c023badfp125613jsndb473024403a",
-  //     "X-RapidAPI-Host": "medium2.p.rapidapi.com",
-  //   },
-  // };
-
-  // useEffect(() => {
-  //   fetch("https://medium2.p.rapidapi.com/user/1985b61817c3", options)
-  //     .then((response) => response.json())
-  //     .then((response) => console.log(response))
-  //     .catch((err) => console.error(err));
-  // });
-
   const [rss, setRss] = useState(null);
 
   useEffect(() => {
@@ -41,8 +26,28 @@ export const Blog = () => {
       } catch (e) {
         console.error(e);
       }
+      // const writeToCache = (url, data) =>
+      //   localStorage.setItem(url, JSON.stringify(data));
     })();
   }, []);
+
+  function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key);
+    // if the item doesn't exist, return null
+    if (!itemStr) {
+      return null;
+    }
+    const item = JSON.parse(itemStr);
+    const now = new Date();
+    // compare the expiry time of the item with the current time
+    if (now.getTime() > item.expiry) {
+      // If the item is expired, delete the item from storage
+      // and return null
+      localStorage.removeItem(key);
+      return null;
+    }
+    return item.value;
+  }
 
   return (
     <div className="App">
@@ -52,26 +57,27 @@ export const Blog = () => {
       {/* <h1 className="article-header">Blog Posts</h1> */}
 
       <h2>{rss?.feed.title}</h2>
-      {rss?.items.map((item) => (
-        <div className="card" key={item.guid}>
-          <h3>{item.title}</h3>
-          <div
-            className="description"
-            dangerouslySetInnerHTML={{ __html: item.description }}
-          />
-          <div className="button-bg">
-            <a
-              className="button"
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read More &gt;
-            </a>
+      <div className="card-container">
+        {rss?.items.map((item) => (
+          <div className="card" key={item.guid}>
+            <h3>{item.title}</h3>
+            <div
+              className="description"
+              dangerouslySetInnerHTML={{ __html: item.description }}
+            />
+            <div className="button-bg">
+              <a
+                className="button"
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read More &gt;
+              </a>
+            </div>
           </div>
-        </div>
-      ))}
-
+        ))}
+      </div>
       <Articles />
       <Footer />
     </div>

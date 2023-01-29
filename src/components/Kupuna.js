@@ -6,6 +6,7 @@ import ilei from "../images/pict/Ilei.jpg";
 import wong from "../images/Wong.jpg";
 import ohai from "../images/pict/Ohai.jpg";
 import papaTom from "../images/pict/Papa Tom.jpg";
+import { Footer } from "./Footer";
 
 export const Kupuna = () => {
   return (
@@ -138,6 +139,7 @@ export const Kupuna = () => {
           resided in Kekaha, Kaua`i.
         </div> */}
       </div>
+      <Footer />
     </div>
   );
 };

@@ -43,9 +43,9 @@ export const Navbar = () => {
                 KUPUNA
               </Link>
 
-              <Link className="submenu-item" to="/gallery">
+              {/* <Link className="submenu-item" to="/gallery">
                 GALLERY
-              </Link>
+              </Link> */}
             </div>
           </div>
 
