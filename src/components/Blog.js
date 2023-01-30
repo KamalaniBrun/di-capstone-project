@@ -17,9 +17,8 @@ export const Blog = () => {
          * https://www.sohamkamani.com/javascript/localstorage-with-ttl-expiry/
          */
         const res = await fetch(
-          `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(
-            "https://medium.com/feed/@pihanakaikenaokauai"
-          )}`
+          `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@pihanakaikenaokauai
+          `
         );
         const feed = await res.json();
         setRss(feed);
