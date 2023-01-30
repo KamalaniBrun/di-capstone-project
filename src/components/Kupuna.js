@@ -1,11 +1,11 @@
 import { Navbar } from "./Navbar";
-import henryAuwae from "../images/pictures/Auwae.jpg";
-import auntyMargaret from "../images/pictures/Aunty-Margaret-Machado.jpg";
-import craver from "../images/pictures/Craver.jpg";
-import ilei from "../images/pict/Ilei.jpg";
-import wong from "../images/Wong.jpg";
-import ohai from "../images/pict/Ohai.jpg";
-import papaTom from "../images/pict/Papa Tom.jpg";
+import henryAuwae from "../images/kupuna/pictures/Auwae.jpg";
+import auntyMargaret from "../images/kupuna/pictures/Aunty-Margaret-Machado.jpg";
+import craver from "../images/kupuna/pictures/Craver.jpg";
+import ilei from "../images/kupuna/pict/Ilei.jpg";
+import wong from "../images/kupuna/Wong.jpg";
+import ohai from "../images/kupuna/pict/Ohai.jpg";
+import papaTom from "../images/kupuna/pict/Papa Tom.jpg";
 import { Footer } from "./Footer";
 
 export const Kupuna = () => {

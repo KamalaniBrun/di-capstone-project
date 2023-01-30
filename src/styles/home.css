@@ -53,12 +53,17 @@
   width: 100%;
 }
 
+.section-2-left > p {
+  font-size: smaller;
+  color: gray;
+}
+
 .section-2-right {
   width: 100%;
 }
 
 .home-pic {
-  margin: 20px 0 20px 0;
+  margin: 20px 0 5px 0;
   max-width: 30rem;
   max-height: 25rem;
   border: solid 3px;

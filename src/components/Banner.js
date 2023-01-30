@@ -27,7 +27,9 @@ export const Banner = () => {
           <div className="item-body">
             Pihana ka `Ikena means the gathering of knowledge through mind,
             body, and spirit. This is dedicated to all Traditional Hawaiian
-            Healers that have come into our lives.
+            Healers that have come into our lives. This non-profit perpetuates
+            traditional Hawaiian healing arts through education and practical
+            application.
           </div>
 
           <Link to="/about" className="btn">
@@ -46,8 +48,8 @@ export const Banner = () => {
             cancer.
           </div>
 
-          <Link to="/about" className="btn">
-            Learn More
+          <Link to="/blog" className="btn">
+            Read More
           </Link>
         </div>
       </CarouselItem>
