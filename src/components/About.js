@@ -1,6 +1,6 @@
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
-import aboutPic from "../images/kahili-banner.png";
+import aboutPic from "../images/about-banner.png";
 import seanLomi from "../images/practitioners/sean-lomi.jpeg";
 import macoLomi from "../images/practitioners/maco-lomi.jpeg";
 import ginger from "../images/practitioners/Ginger.jpg";

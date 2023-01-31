@@ -7,12 +7,15 @@ import wong from "../images/kupuna/Wong.jpg";
 import ohai from "../images/kupuna/pict/Ohai.jpg";
 import papaTom from "../images/kupuna/pict/Papa Tom.jpg";
 import { Footer } from "./Footer";
+import kupunaBanner from "../images/kupuna/kupuna-banner.png";
 
 export const Kupuna = () => {
   return (
     <div>
       <Navbar />
       <header className="page-header">Our Kupuna</header>
+
+      <img className="about-pic" src={kupunaBanner} alt="kupuna-banner" />
 
       <div className="kupuna-intro">
         Hali`a Aloha, a fond remembrance of the kupuna that we cherished and
