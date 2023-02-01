@@ -23,7 +23,7 @@
   padding: 20px;
   align-items: center;
   text-align: center;
-  box-shadow: 0 3px 5px #00000060;
+  box-shadow: 0 3px 5px #4070ff;
 }
 
 .article-card > p {
@@ -36,4 +36,20 @@
   color: black;
   font-weight: 700;
   padding: 10px;
+}
+
+.button-2 {
+  color: white;
+  background: blueviolet;
+  border-radius: 40px;
+  padding: 10px 20px;
+  text-decoration: none;
+  justify-self: flex-end;
+  width: fit-content;
+  box-shadow: 0 3px 3px #00000060;
+  /* margin: 20px; */
+}
+
+.button-2:hover {
+  background-color: #4070ff;
 }

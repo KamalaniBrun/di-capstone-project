@@ -2,6 +2,8 @@ import { Articles } from "./Articles";
 import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
 import { useEffect, useState } from "react";
+// import { format } from "date-fns";
+import { getWithExpiry, setWithExpiry } from "./localstorage-utils";
 
 export const Blog = () => {
   const [rss, setRss] = useState(null);
@@ -25,28 +27,26 @@ export const Blog = () => {
       } catch (e) {
         console.error(e);
       }
-      // const writeToCache = (url, data) =>
-      //   localStorage.setItem(url, JSON.stringify(data));
     })();
   }, []);
 
-  // function getWithExpiry(key) {
-  //   const itemStr = localStorage.getItem(key);
-  //   // if the item doesn't exist, return null
-  //   if (!itemStr) {
-  //     return null;
-  //   }
-  //   const item = JSON.parse(itemStr);
-  //   const now = new Date();
-  //   // compare the expiry time of the item with the current time
-  //   if (now.getTime() > item.expiry) {
-  //     // If the item is expired, delete the item from storage
-  //     // and return null
-  //     localStorage.removeItem(key);
-  //     return null;
-  //   }
-  //   return item.value;
-  // }
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    (async () => {
+      let cachedPosts = getWithExpiry("posts");
+
+      if (!cachedPosts?.status) {
+        const res = await fetch(
+          `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@pihanakaikenaokauai
+          `
+        );
+        cachedPosts = await res.json();
+      }
+      setWithExpiry("posts", cachedPosts, 86_400_000);
+      setPosts(cachedPosts);
+    })();
+  }, []);
 
   return (
     <div className="App">
@@ -61,14 +61,14 @@ export const Blog = () => {
       <div className="card-container">
         {rss?.items.map((item) => (
           <div className="card" key={item.guid}>
-            <h3>{item.title}</h3>
+            <h3 className="item-title">{item.title}</h3>
             <div
               className="description"
               dangerouslySetInnerHTML={{ __html: item.description }}
             />
             <div className="button-bg">
               <a
-                className="button"
+                className="button-2"
                 href={item.link}
                 target="_blank"
                 rel="noopener noreferrer"

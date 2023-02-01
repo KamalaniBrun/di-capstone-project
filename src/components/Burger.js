@@ -35,14 +35,14 @@ export const Burger = () => {
         >
           KUPUNA
         </NavLink>
-        <NavLink
+        {/* <NavLink
           className={({ isActive }) =>
             clsx("nav-link", { "nav-link-active": isActive })
           }
           to="/gallery"
         >
           GALLERY
-        </NavLink>
+        </NavLink> */}
 
         <NavLink
           className={({ isActive }) =>

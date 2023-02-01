@@ -3,10 +3,14 @@ h3 {
   text-align: center;
 }
 
-h2 {
+/* .item-title {
+  color: #8f76c2;
+} */
+
+/* h2 {
   padding-top: 20px;
   text-align: center;
-}
+} */
 
 .description {
   text-align: center;
@@ -29,7 +33,7 @@ h2 {
   width: 22rem;
   max-height: 35rem;
   background-color: white;
-  box-shadow: 0 3px 5px #00000060;
+  box-shadow: 0 3px 5px blueviolet;
   border-radius: 20px;
   padding: 20px;
   box-sizing: border-box;

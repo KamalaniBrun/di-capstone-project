@@ -1,3 +1,7 @@
+.kupuna-page {
+  width: 100%;
+}
+
 .kupuna-intro {
   display: flex;
   align-items: center;
@@ -49,4 +53,5 @@
   align-items: flex-end;
   border: solid 1px;
   box-shadow: 0 5px 7px #00000060;
+  margin: 50px;
 }

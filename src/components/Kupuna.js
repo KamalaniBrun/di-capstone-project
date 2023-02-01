@@ -11,7 +11,7 @@ import kupunaBanner from "../images/kupuna/kupuna-banner.png";
 
 export const Kupuna = () => {
   return (
-    <div>
+    <div className="kupuna-page">
       <Navbar />
       <header className="page-header">Our Kupuna</header>
 
@@ -23,88 +23,114 @@ export const Kupuna = () => {
         down to us.
       </div>
 
-      <div className="kupuna">
-        <div className="kupuna-section">
-          <div className="kupuna-body">
-            Papa Henry Auwae (1906-2000) a kahuna lā‘au lapa‘au from Hawai`i
-            Island was instrumental behind the organization of kupuna healers in
-            the 1980s and po‘o in the 1990s. He has many haumana throughout the
-            islands.
+      <div className="practitioners">
+        <div className="practitioner-section">
+          <div className="practitioner-section-left">
+            <h4 className="board-section-header">Papa Henry Auwae</h4>
+            <div className="practitioner-body">
+              Papa Henry Auwae (1906-2000) a kahuna lā‘au lapa‘au from Hawai`i
+              Island was instrumental behind the organization of kupuna healers
+              in the 1980s and po‘o in the 1990s. He has many haumana throughout
+              the islands.
+            </div>
           </div>
-          <div className="kupuna-img-container">
-            <img className="kupuna-img" src={henryAuwae} alt="henry-auwae" />
+          <div className="practitioner-img-container">
+            <img
+              className="practitioner-img"
+              src={henryAuwae}
+              alt="henry-auwae"
+            />
           </div>
         </div>
 
-        <div className="kupuna-section">
-          <div className="kupuna-body">
-            Aunty Margaret Machado (1916-2009) was a well known lomilomi
-            practitioner from Hawai`i Island. Many people from around the world
-            sought out her healing, and to be taught her style of lomilomi.
+        <div className="practitioner-section">
+          <div className="practitioner-section-left">
+            <h4 className="board-section-header">Aunty Margaret Machado</h4>
+            <div className="practitioner-body">
+              Aunty Margaret Machado (1916-2009) was a well known lomilomi
+              practitioner from Hawai`i Island. Many people from around the
+              world sought out her healing, and to be taught her style of
+              lomilomi.
+            </div>
           </div>
-          <div className="kupuna-img-container">
+          <div className="practitioner-img-container">
             <img
-              className="kupuna-img"
+              className="practitioner-img"
               src={auntyMargaret}
               alt="margaret-machado"
             />
           </div>
         </div>
 
-        <div className="kupuna-section">
-          <div className="kupuna-body">
-            Aunty Malia Craver (1927-2009) was a well known ho`oponopono
-            practitioner that has taught many student through The Queen
-            Lili`uokalani Children’s Center.
+        <div className="practitioner-section">
+          <div className="practitioner-section-left">
+            <h4 className="board-section-header">Aunty Malia Craver</h4>
+            <div className="practitioner-body">
+              Aunty Malia Craver (1927-2009) was a well known ho`oponopono
+              practitioner that has taught many student through The Queen
+              Lili`uokalani Children’s Center.
+            </div>
           </div>
-          <div className="kupuna-img-container">
-            <img className="kupuna-img" src={craver} alt="craver" />
-          </div>
-        </div>
-
-        <div className="kupuna-section">
-          <div className="kupuna-body">
-            Aunty Ilei Beniamina (1956-2020) was a cultural practitioner from
-            Ni`ihau that advocated for the education and health of her people.
-            She was a Hoku Hanohano award winner, and helped establish `Aha
-            Punana Leo and the Native Hawaiian Health System here on Kaua`i.
-          </div>
-          <div className="kupuna-img-container">
-            <img className="kupuna-img" src={ilei} alt="ilei" />
+          <div className="practitioner-img-container">
+            <img className="practitioner-img" src={craver} alt="craver" />
           </div>
         </div>
 
-        <div className="kupuna-section">
-          <div className="kupuna-body">
-            Papa Francis “Wongie” Wong was a prolific martial arts practitioner
-            that included lua, lim lama, and kung fu. He also practiced lomilomi
-            and ho`oponopono.
+        <div className="practitioner-section">
+          <div className="practitioner-section-left">
+            <h4 className="board-section-header">Aunty Ilei Beniamina</h4>
+            <div className="practitioner-body">
+              Aunty Ilei Beniamina (1956-2020) was a cultural practitioner from
+              Ni`ihau that advocated for the education and health of her people.
+              She was a Hoku Hanohano award winner, and helped establish `Aha
+              Punana Leo and the Native Hawaiian Health System here on Kaua`i.
+            </div>
           </div>
-          <div className="kupuna-img-container">
-            <img className="kupuna-img" src={wong} alt="papa-wongie" />
-          </div>
-        </div>
-
-        <div className="kupuna-section">
-          <div className="kupuna-body">
-            Kumu Levon Ohai (1942-2012) was a renown practitioner of la`au
-            lapa`au from Kaua`i. He has taught numerous students throughout
-            Hawai`i as a Kumu at The University of Hawai`i, Manoa. He was very
-            influential in the present day revival of la`au lapa`au.{" "}
-          </div>
-          <div className="kupuna-img-container">
-            <img className="kupuna-img" src={ohai} alt="ohai" />
+          <div className="practitioner-img-container">
+            <img className="practitioner-img" src={ilei} alt="ilei" />
           </div>
         </div>
 
-        <div className="kupuna-section">
-          <div className="kupuna-body">
-            Papa Tom Takahashi (1928-2019) was Kaua`i’s kupuna healer. He was a
-            well-known practitioner of pule from Ni`ihau that resided on the
-            west side of Kaua`i.
+        <div className="practitioner-section">
+          <div className="practitioner-section-left">
+            <h4 className="board-section-header">Papa Francis Wong</h4>
+            <div className="practitioner-body">
+              Papa Francis “Wongie” Wong was a prolific martial arts
+              practitioner that included lua, lim lama, and kung fu. He also
+              practiced lomilomi and ho`oponopono.
+            </div>
           </div>
-          <div className="kupuna-img-container">
-            <img className="kupuna-img" src={papaTom} alt="papa-tom" />
+          <div className="practitioner-img-container">
+            <img className="practitioner-img" src={wong} alt="papa-wongie" />
+          </div>
+        </div>
+
+        <div className="practitioner-section">
+          <div className="practitioner-section-left">
+            <h4 className="board-section-header">Kumu Levon Ohai</h4>
+            <div className="practitioner-body">
+              Kumu Levon Ohai (1942-2012) was a renown practitioner of la`au
+              lapa`au from Kaua`i. He has taught numerous students throughout
+              Hawai`i as a Kumu at The University of Hawai`i, Manoa. He was very
+              influential in the present day revival of la`au lapa`au.{" "}
+            </div>
+          </div>
+          <div className="practitioner-img-container">
+            <img className="practitioner-img" src={ohai} alt="ohai" />
+          </div>
+        </div>
+
+        <div className="practitioner-section">
+          <div className="practitioner-section-left">
+            <h4 className="board-section-header">Papa Tom Takahashi</h4>
+            <div className="practitioner-body">
+              Papa Tom Takahashi (1928-2019) was Kaua`i’s kupuna healer. He was
+              a well-known practitioner of pule from Ni`ihau that resided on the
+              west side of Kaua`i.
+            </div>
+          </div>
+          <div className="practitioner-img-container">
+            <img className="practitioner-img" src={papaTom} alt="papa-tom" />
           </div>
         </div>
 

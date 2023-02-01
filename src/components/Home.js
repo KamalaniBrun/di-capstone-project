@@ -40,10 +40,11 @@ export const Home = () => {
           <div className="section-body">
             Sean Chun is a traditionally trained native Hawaiian cultural
             practitioner. He practices multiple traditional healing arts
-            including ho`oponopono (conflict resolution), la`au lapa`au (plant
-            medicine), and lomilomi (massage). He is also the po`o of the Kaua`i
-            Kupuna Council of Traditional Hawaiian Healing Arts and sit on the
-            `Aha Kukakuka Ho`oponopono Board.
+            including <em>ho`oponopono</em> (conflict resolution),{" "}
+            <em>la`au lapa`au</em>
+            (plant medicine), and <em> lomilomi</em> (massage). He is also the
+            <em> po`o</em> of the Kaua`i Kupuna Council of Traditional Hawaiian
+            Healing Arts and sit on the `Aha Kukakuka Ho`oponopono Board.
           </div>
         </div>
 

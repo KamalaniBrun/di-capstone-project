@@ -31,7 +31,7 @@
   color: #d3d3d3;
   margin-top: 3px;
   margin-bottom: 3px;
-  /* background-color: black; */
+  /* background-color: black;  */
   z-index: 0;
   opacity: 1;
 }
@@ -83,8 +83,8 @@
   border-radius: 8px 8px 0 0;
 }
 
-.dropdown-btn:active {
-  color: blueviolet;
+.dropdown-btn-active {
+  color: #8f76c2;
 }
 
 .dropdown:hover .dropdown-content {
@@ -93,6 +93,7 @@
   align-items: center;
   color: white;
   border-radius: 0 0 8px 8px;
+  z-index: 2000;
 }
 
 .dropdown-content:hover {

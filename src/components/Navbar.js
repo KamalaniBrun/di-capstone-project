@@ -25,11 +25,16 @@ export const Navbar = () => {
             HOME
           </NavLink>
 
-          <div className="dropdown">
+          <div
+            className="dropdown"
+            // {({ isActive }) =>
+            //   clsx("dropdown", { "dropdown-btn-active": isActive })
+            // }
+          >
             <NavLink
               className={({ isActive }) =>
                 clsx("dropdown-btn", {
-                  "nav-link-active": isActive,
+                  "dropdown-btn-active": isActive,
                 })
               }
               // onMouseOver={() => setDropdown(true)}
