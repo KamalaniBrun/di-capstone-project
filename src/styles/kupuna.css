@@ -6,7 +6,7 @@
   font-weight: 500;
   width: 70%;
   margin: auto;
-  padding: 20px 0 20px 0;
+  padding: 30px 0 20px 0;
 }
 
 .kupuna {
@@ -47,5 +47,6 @@
 .kupuna-img {
   display: flex;
   align-items: flex-end;
-  border: solid 2px;
+  border: solid 1px;
+  box-shadow: 0 5px 7px #00000060;
 }

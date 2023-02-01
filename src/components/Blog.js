@@ -55,7 +55,9 @@ export const Blog = () => {
 
       {/* <h1 className="article-header">Blog Posts</h1> */}
 
-      <h2>{rss?.feed.title}</h2>
+      {/* <h2 className="article-header">{rss?.feed.title}</h2> */}
+      <h3 className="article-header">Stories by Pihana Ka`Ikena o Kaua'i</h3>
+
       <div className="card-container">
         {rss?.items.map((item) => (
           <div className="card" key={item.guid}>

@@ -4,7 +4,7 @@ import { Navbar } from "./Navbar";
 import homePic from "../images/home-pic.png";
 import React from "react";
 import ReactPlayer from "react-player/youtube";
-import thumbnail from "../images/thumbnail.png";
+import thumbnail from "../images/youtube-thumbnail.png";
 
 export const Home = () => {
   const playerRef = React.useRef(null);

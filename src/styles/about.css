@@ -12,6 +12,7 @@
   font-weight: 300;
   padding-top: 90px;
   letter-spacing: 5px;
+  box-shadow: 0 3px 5px #00000060;
 }
 
 .about-pic {
@@ -22,14 +23,16 @@
   width: 75%;
   height: 30rem;
   margin-top: 30px;
-  border: solid 2px;
+  border: solid 1px;
+  box-shadow: 0 7px 7px #00000060;
 }
 
 .section-header-2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px 20px 20px 20px;
+  font-size: large;
+  padding: 30px 20px 20px 20px;
   margin: auto;
 }
 
@@ -99,5 +102,6 @@
   width: 12rem;
   margin: 30px;
   margin-left: 100px;
-  border: solid 2px;
+  border: solid 0.5px;
+  box-shadow: 0 5px 7px #00000060;
 }
