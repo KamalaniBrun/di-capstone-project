@@ -25,15 +25,15 @@ export const About = () => {
             <p>
               Sean A. Chun lives in Wailua and is currently employed by Ho`ola
               Lahui Hawai`i as the Native Hawaiian Traditional Healing
-              Practitioner. He is also the po`o of the Kaua`i Kupuna Council of
-              Traditional Hawaiian Healing Arts and sits on the `Aha Kukakuka
-              Ho`oponopono Board as well as the Board of Kahuna La`au Lapa`au o
-              Hawai`i. He has learned various arts and cultural practices. He
-              credits his mentors and teachers such as Pila Kikuchi, Ilei
-              Beniamina, Kumu Levon Ohai, Ken “Coach” Kamakea, Papa Francis
-              Wong, Papa Tom Takahashi, Aunty Mahi Poepoe, Aunty Daisy Nash,
-              Sensei Paul Yamaguchi, `Olohe Jerry Walker, and Sensei Bruce
-              Keaulani.
+              Practitioner. He is also the <em>po`o</em> of the Kaua`i Kupuna
+              Council of Traditional Hawaiian Healing Arts and sits on the `Aha
+              Kukakuka Ho`oponopono Board as well as the Board of Kahuna La`au
+              Lapa`au o Hawai`i. He has learned various arts and cultural
+              practices. He credits his mentors and teachers such as Pila
+              Kikuchi, Ilei Beniamina, Kumu Levon Ohai, Ken “Coach” Kamakea,
+              Papa Francis Wong, Papa Tom Takahashi, Aunty Mahi Poepoe, Aunty
+              Daisy Nash, Sensei Paul Yamaguchi, `Olohe Jerry Walker, and Sensei
+              Bruce Keaulani.
             </p>
           </div>
           <div className="practitioner-img-containter">
@@ -62,8 +62,8 @@ export const About = () => {
             <h4 className="board-section-header">Gwen Cardejon</h4>
             <p>
               Gwen Cardejon was a student of Aunty Mahi Poepoe and carries on
-              the tradition of lomilomi kua lua. She was also a student of Papa
-              Tom Takahashi.
+              the tradition of <em> lomilomi kua lua</em>. She was also a
+              student of Papa Tom Takahashi.
             </p>
           </div>
           <div className="practitioner-img-containter">
@@ -76,10 +76,11 @@ export const About = () => {
             <h4 className="board-section-header">Ginger Saiki</h4>
             <p>
               Ginger Saiki lives in Wailua and has been a practitioner of
-              ho`oponopono with Aunty Malia Craver and la`au lapa`au under Levon
-              Ohai. Ginger is also on the board of Ho`ola Lahui as well as the
-              Kaua`i Kupuna Council of Traditional Hawaiian Healing Arts. She is
-              a very active member and instructor with Halau Kahelahela.
+              <em> ho`oponopono</em> with Aunty Malia Craver and{" "}
+              <em>la`au lapa`au</em> under Levon Ohai. Ginger is also on the
+              board of Ho`ola Lahui as well as the Kaua`i Kupuna Council of
+              Traditional Hawaiian Healing Arts. She is a very active member and
+              instructor with Halau Kahelahela.
             </p>
           </div>
           <div className="practitioner-img-containter">
@@ -92,12 +93,13 @@ export const About = () => {
             <h4 className="board-section-header">Kau`ilani Kahalewai</h4>
             <p>
               Kau`ilani Kahalewai has been a Hawaiian Practitioner specializing
-              in Ho’oponopono since 1997. She began studying under her teachers,
-              Norma Takeshita and Miriam Kaohi-Joseah and worked alongside
-              mentors such as Kahuna Morna Simiona. Kau`ilani also studied Theta
-              Healing since the early 2000’s and has since become an instructor.
-              In addition to the Kaua’i Kupuna Council, she sits on the Kaua’i
-              Burial Council and the Kaneioluma Heiau Council in Po’ipu.
+              in <em> Ho’oponopono</em> since 1997. She began studying under her
+              teachers, Norma Takeshita and Miriam Kaohi-Joseah and worked
+              alongside mentors such as Kahuna Morna Simiona. Kau`ilani also
+              studied Theta Healing since the early 2000’s and has since become
+              an instructor. In addition to the Kaua’i Kupuna Council, she sits
+              on the Kaua’i Burial Council and the Kaneioluma Heiau Council in
+              Po’ipu.
             </p>
           </div>
           <div className="practitioner-img-containter">

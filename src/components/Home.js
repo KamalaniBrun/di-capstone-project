@@ -10,7 +10,7 @@ export const Home = () => {
   const playerRef = React.useRef(null);
 
   return (
-    <div>
+    <div className="home-page">
       <Navbar />
       <Banner />
 
@@ -41,8 +41,8 @@ export const Home = () => {
             Sean Chun is a traditionally trained native Hawaiian cultural
             practitioner. He practices multiple traditional healing arts
             including <em>ho`oponopono</em> (conflict resolution),{" "}
-            <em>la`au lapa`au</em>
-            (plant medicine), and <em> lomilomi</em> (massage). He is also the
+            <em>la`au lapa`au</em> (plant medicine), and <em> lomilomi</em>{" "}
+            (massage). He is also the
             <em> po`o</em> of the Kaua`i Kupuna Council of Traditional Hawaiian
             Healing Arts and sit on the `Aha Kukakuka Ho`oponopono Board.
           </div>
@@ -55,6 +55,7 @@ export const Home = () => {
             height="305px"
             ref={playerRef}
             url="https://www.youtube.com/embed/CgVrCkRdbK4"
+            playing
             controls
             light={thumbnail}
           />

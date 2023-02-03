@@ -3,7 +3,9 @@
   align-items: center;
   justify-content: center;
   padding: 20px 20px 20px 20px;
+  text-shadow: 0 3px 3px #30303075;
   margin: auto;
+  color: rgb(36, 35, 35);
 }
 
 .articles-container {
@@ -23,7 +25,8 @@
   padding: 20px;
   align-items: center;
   text-align: center;
-  box-shadow: 0 3px 5px #4070ff;
+  box-shadow: 0 3px 5px #00000060;
+  background-color: white;
 }
 
 .article-card > p {

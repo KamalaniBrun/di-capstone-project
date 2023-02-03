@@ -28,10 +28,10 @@ export const Kupuna = () => {
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Papa Henry Auwae</h4>
             <div className="practitioner-body">
-              Papa Henry Auwae (1906-2000) a kahuna lā‘au lapa‘au from Hawai`i
-              Island was instrumental behind the organization of kupuna healers
-              in the 1980s and po‘o in the 1990s. He has many haumana throughout
-              the islands.
+              Papa Henry Auwae (1906-2000) a <em> kahuna lā‘au lapa‘au</em> from
+              Hawai`i Island was instrumental behind the organization of{" "}
+              <em> kupuna</em> healers in the 1980s and <em> po‘o</em> in the
+              1990s. He has many <em> haumana</em> throughout the islands.
             </div>
           </div>
           <div className="practitioner-img-container">
@@ -47,10 +47,10 @@ export const Kupuna = () => {
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Aunty Margaret Machado</h4>
             <div className="practitioner-body">
-              Aunty Margaret Machado (1916-2009) was a well known lomilomi
-              practitioner from Hawai`i Island. Many people from around the
-              world sought out her healing, and to be taught her style of
-              lomilomi.
+              Aunty Margaret Machado (1916-2009) was a well known{" "}
+              <em> lomilomi</em> practitioner from Hawai`i Island. Many people
+              from around the world sought out her healing, and to be taught her
+              style of <em> lomilomi</em>.
             </div>
           </div>
           <div className="practitioner-img-container">
@@ -66,9 +66,9 @@ export const Kupuna = () => {
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Aunty Malia Craver</h4>
             <div className="practitioner-body">
-              Aunty Malia Craver (1927-2009) was a well known ho`oponopono
-              practitioner that has taught many student through The Queen
-              Lili`uokalani Children’s Center.
+              Aunty Malia Craver (1927-2009) was a well known{" "}
+              <em> ho`oponopono</em> practitioner that has taught many student
+              through The Queen Lili`uokalani Children’s Center.
             </div>
           </div>
           <div className="practitioner-img-container">
@@ -96,8 +96,9 @@ export const Kupuna = () => {
             <h4 className="board-section-header">Papa Francis Wong</h4>
             <div className="practitioner-body">
               Papa Francis “Wongie” Wong was a prolific martial arts
-              practitioner that included lua, lim lama, and kung fu. He also
-              practiced lomilomi and ho`oponopono.
+              practitioner that included <em>lua</em>, <em>limalama</em>, and
+              kung fu. He also practiced <em> lomilomi</em> and{" "}
+              <em> ho`oponopono</em>.
             </div>
           </div>
           <div className="practitioner-img-container">
@@ -109,10 +110,11 @@ export const Kupuna = () => {
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Kumu Levon Ohai</h4>
             <div className="practitioner-body">
-              Kumu Levon Ohai (1942-2012) was a renown practitioner of la`au
-              lapa`au from Kaua`i. He has taught numerous students throughout
-              Hawai`i as a Kumu at The University of Hawai`i, Manoa. He was very
-              influential in the present day revival of la`au lapa`au.{" "}
+              Kumu Levon Ohai (1942-2012) was a renown practitioner of{" "}
+              <em>la`au lapa`au</em> from Kaua`i. He has taught numerous
+              students throughout Hawai`i as a Kumu at The University of
+              Hawai`i, Manoa. He was very influential in the present day revival
+              of <em>la`au lapa`au</em>.{" "}
             </div>
           </div>
           <div className="practitioner-img-container">
@@ -124,9 +126,9 @@ export const Kupuna = () => {
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Papa Tom Takahashi</h4>
             <div className="practitioner-body">
-              Papa Tom Takahashi (1928-2019) was Kaua`i’s kupuna healer. He was
-              a well-known practitioner of pule from Ni`ihau that resided on the
-              west side of Kaua`i.
+              Papa Tom Takahashi (1928-2019) was Kaua`i’s <em>kupuna</em>{" "}
+              healer. He was a well-known practitioner of <em>pule</em> from
+              Ni`ihau that resided on the west side of Kaua`i.
             </div>
           </div>
           <div className="practitioner-img-container">

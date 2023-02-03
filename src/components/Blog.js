@@ -49,14 +49,14 @@ export const Blog = () => {
   }, []);
 
   return (
-    <div className="App">
+    <div className="blog-page">
       <Navbar />
       <header className="page-header">BLOG</header>
 
       {/* <h1 className="article-header">Blog Posts</h1> */}
 
       {/* <h2 className="article-header">{rss?.feed.title}</h2> */}
-      <h3 className="article-header">Stories by Pihana Ka`Ikena o Kaua'i</h3>
+      <h2 className="article-header">Stories by Pihana ka`Ikena o Kaua'i</h2>
 
       <div className="card-container">
         {rss?.items.map((item) => (

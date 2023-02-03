@@ -7,7 +7,7 @@ export const Articles = () => {
     <div>
       {/* <Navbar />
       <header className="page-header">ARTICLES</header> */}
-      <h3 className="article-header">In the News</h3>
+      <h2 className="article-header">In the News</h2>
       <div className="articles-container">
         <div className="article-card">
           <h4 className="article">Sharing Culture</h4>

@@ -1,3 +1,9 @@
+.events-page {
+  background-image: url("../images/fern-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .calendar-container {
   display: flex;
   align-items: center;

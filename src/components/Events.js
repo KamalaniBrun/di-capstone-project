@@ -3,7 +3,7 @@ import { Navbar } from "./Navbar";
 
 export const Events = () => {
   return (
-    <div>
+    <div className="events-page">
       <Navbar />
       <header className="page-header">Events</header>
 
