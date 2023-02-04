@@ -1,27 +1,14 @@
 h1,
-h3 {
+h3,
+h4 {
   text-align: center;
 }
-
-/* .item-title {
-  color: #8f76c2;
-} */
-
-/* h2 {
-  padding-top: 20px;
-  text-align: center;
-} */
 
 .blog-page {
   background-image: url("../images/fern-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* .description-container {
-  max-height: 21.87rem;
-  padding: 60px 0 60px 0;
-} */
 
 .description {
   text-align: center;
@@ -30,19 +17,17 @@ h3 {
 }
 
 .card-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* position: relative; */
-  width: 20rem;
-  max-height: 35rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
   background-color: white;
   box-shadow: 0 3px 5px #00000060;
   border-radius: 20px;
@@ -62,34 +47,17 @@ h3 {
   border-radius: 40px;
   padding: 10px 20px;
   text-decoration: none;
-  justify-self: flex-end;
+  justify-self: center;
   width: fit-content;
   box-shadow: 0 3px 3px #00000060;
-  /* margin: 20px; */
 }
 
 .button:hover {
   background-color: blueviolet;
 }
 
-.button-bg {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  position: absolute;
-  top: 820px;
-  height: 4.37rem;
-  width: 15rem;
-  /* margin: 0 30px 0 30px; */
-  /* width: initial; */
-  background-color: white;
-  padding-bottom: 13px;
-  border-radius: 8px;
-}
-
-@media screen and (max-width: 1024px) {
-  /* .card-container {
-    display: flex;
-    flex-direction: column;
-  } */
+@media screen and (min-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
