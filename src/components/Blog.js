@@ -51,7 +51,7 @@ export const Blog = () => {
   return (
     <div className="blog-page">
       <Navbar />
-      <header className="page-header">BLOG</header>
+      <header className="page-header">MEDIA</header>
 
       {/* <h1 className="article-header">Blog Posts</h1> */}
 
@@ -62,10 +62,12 @@ export const Blog = () => {
         {rss?.items.map((item) => (
           <div className="card" key={item.guid}>
             <h3 className="item-title">{item.title}</h3>
-            <div
-              className="description"
-              dangerouslySetInnerHTML={{ __html: item.description }}
-            />
+            <div className="description-container">
+              <div
+                className="description"
+                dangerouslySetInnerHTML={{ __html: item.description }}
+              />
+            </div>
             <div className="button-bg">
               <a
                 className="button-2"
@@ -73,6 +75,7 @@ export const Blog = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
+                {/* <button className="button-2"> Read More</button> */}
                 Read More &gt;
               </a>
             </div>

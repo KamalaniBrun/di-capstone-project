@@ -70,7 +70,7 @@ export const Navbar = () => {
             }
             to="/blog"
           >
-            BLOG
+            MEDIA
           </NavLink>
 
           {/* <div className="dropdown-content">

@@ -12,7 +12,7 @@ export const Footer = () => {
         </div>
 
         <div className="footer-body">
-          Pihana Ka`ikena is a non-profit corporation that perpetuates
+          Pihana ka`Ikena is a non-profit corporation that perpetuates
           traditional Hawaiian healing arts and culture through education and
           practical application. This is dedicated to all Traditional Hawaiian
           Healers that have come into our lives.

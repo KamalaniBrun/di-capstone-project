@@ -58,7 +58,7 @@ export const Burger = () => {
           }
           to="/blog"
         >
-          BLOG
+          MEDIA
         </NavLink>
         <NavLink
           className={({ isActive }) =>

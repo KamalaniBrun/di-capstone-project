@@ -21,7 +21,9 @@ export const About = () => {
       <div className="practitioners">
         <div className="practitioner-section">
           <div className="practitioner-left">
-            <h4 className="board-section-header">Sean Chun</h4>
+            <h4 className="board-section-header">
+              Sean Chun (Board President)
+            </h4>
             <p>
               Sean A. Chun lives in Wailua and is currently employed by Ho`ola
               Lahui Hawai`i as the Native Hawaiian Traditional Healing
@@ -43,7 +45,9 @@ export const About = () => {
 
         <div className="practitioner-section">
           <div className="practitioner-left">
-            <h4 className="board-section-header">Maco Wai`ale`ale</h4>
+            <h4 className="board-section-header">
+              Maco Wai`ale`ale (Board Vice President)
+            </h4>
             <p>
               Maco Wai`ale`ale has owned and operated her massage clinic for
               more than 40 years. Maco is the vice president of Pihana ka
@@ -108,7 +112,7 @@ export const About = () => {
         </div>
       </div>
 
-      <h3 className="section-header-2">Our Board</h3>
+      {/* <h3 className="section-header-2">Our Board</h3>
 
       <div className="board">
         <div className="board-section">
@@ -142,7 +146,7 @@ export const About = () => {
             <p>Susan Oshiro-Taogoshi</p>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );
