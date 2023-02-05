@@ -1,15 +1,9 @@
-import { Link } from "react-router-dom";
-import { Footer } from "./Footer";
-import { Navbar } from "./Navbar";
-
 export const Articles = () => {
   return (
     <div>
-      {/* <Navbar />
-      <header className="page-header">ARTICLES</header> */}
       <h2 className="article-header">In the News</h2>
-      <div className="articles-container">
-        <div className="article-card">
+      <div className="card-container">
+        <div className="card">
           <h4 className="article">Sharing Culture</h4>
 
           <p>
@@ -25,11 +19,11 @@ export const Articles = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Read More
+            Read More &gt;
           </a>
         </div>
 
-        <div className="article-card">
+        <div className="card">
           <h4 className="article">Sean Chun</h4>
 
           <p>
@@ -44,11 +38,11 @@ export const Articles = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Read More
+            Read More &gt;
           </a>
         </div>
 
-        <div className="article-card">
+        <div className="card">
           <h4 className="article">Healing with Traditional Herbs</h4>
 
           <p>
@@ -63,11 +57,11 @@ export const Articles = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Read More
+            Read More &gt;
           </a>
         </div>
 
-        <div className="article-card">
+        <div className="card">
           <h4 className="article">Savvy 360</h4>
 
           <p>
@@ -82,11 +76,10 @@ export const Articles = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Read More
+            Read More &gt;
           </a>
         </div>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };

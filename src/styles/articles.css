@@ -8,16 +8,16 @@
   color: rgb(36, 35, 35);
 }
 
-.articles-container {
+/* .articles-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
   gap: 50px;
   margin: 10px 0 30px 0;
-}
+} */
 
-.article-card {
+/* .article-card {
   display: flex;
   flex-direction: column;
   border-radius: 8px;
@@ -27,11 +27,13 @@
   text-align: center;
   box-shadow: 0 3px 5px #00000060;
   background-color: white;
-}
+  margin: 30px 0 30px 0;
+} */
 
-.article-card > p {
+.card > p {
   color: gray;
   padding: 10px 0 20px 0;
+  text-align: center;
 }
 
 .article {
@@ -55,4 +57,10 @@
 
 .button-2:hover {
   background-color: #4070ff;
+}
+
+@media screen and (min-width: 768px) {
+  .articles-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

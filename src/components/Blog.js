@@ -32,6 +32,7 @@ export const Blog = () => {
     <div className="blog-page">
       <Navbar />
       <header className="page-header">MEDIA</header>
+      <h1>BLOG</h1>
       <h2 className="article-header">Stories by Pihana ka`Ikena o Kaua'i</h2>
       <div className="card-container">
         {posts?.items?.map((item) => (
@@ -41,7 +42,7 @@ export const Blog = () => {
               {getDescription(item.description)}
             </div>
             <a
-              className="button-2"
+              className="button"
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
