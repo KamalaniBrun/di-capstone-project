@@ -32,14 +32,14 @@ export const Blog = () => {
     <div className="blog-page">
       <Navbar />
       <header className="page-header">MEDIA</header>
-      <h1>BLOG</h1>
+      <h1>Blog</h1>
       <h2 className="article-header">Stories by Pihana ka`Ikena o Kaua'i</h2>
       <div className="card-container">
         {posts?.items?.map((item) => (
           <div className="card" key={item.guid}>
             <h4 className="item-title">{item.title}</h4>
             <div className="description">
-              {getDescription(item.description)}
+              {getDescription(item.description)}...
             </div>
             <a
               className="button"

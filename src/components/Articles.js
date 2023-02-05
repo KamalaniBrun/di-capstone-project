@@ -1,6 +1,8 @@
 export const Articles = () => {
   return (
     <div>
+      {/* <h1 className="article-header">In the News</h1> */}
+      <h1>Articles</h1>
       <h2 className="article-header">In the News</h2>
       <div className="card-container">
         <div className="card">
