@@ -63,7 +63,7 @@ export const Contact = () => {
               }
               to="/blog"
             >
-              BLOG
+              MEDIA
             </NavLink>
             <NavLink
               className={({ isActive }) =>

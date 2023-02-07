@@ -14,13 +14,13 @@
 }
 
 .kupuna {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   margin-left: 150px;
 }
 
 .kupuna-section {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   margin-top: 30px;
   width: 100%;
@@ -34,7 +34,7 @@
 } */
 
 .kupuna-body {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   justify-content: center;
   width: 30%;

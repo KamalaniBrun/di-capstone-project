@@ -30,14 +30,19 @@
   justify-content: center;
   color: black;
   width: 100%;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .arrow {
   width: 7rem;
   height: fit-content;
   background-color: white;
-  margin: 0 10px 0 10px;
+  margin: 20px 10px;
+}
+
+.arrow:hover {
+  background-color: black;
+  color: #d3d3d3;
 }
 
 @media screen and (max-width: 1024px) {

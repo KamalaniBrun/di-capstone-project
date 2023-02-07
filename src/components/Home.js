@@ -70,9 +70,9 @@ export const Home = () => {
         </div>
       </div>
 
-      <div>
+      {/* <div>
         <VideoSection />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

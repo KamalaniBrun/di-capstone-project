@@ -54,7 +54,7 @@ export const Blog = () => {
         ))}
       </div>
       <Articles />
-      <VideoSection />
+      {/* <VideoSection /> */}
       <Footer />
     </div>
   );

@@ -10,32 +10,33 @@ export const Burger = () => {
     <div className="hamburger">
       <Hamburger toggled={isOpen} toggle={setOpen} />
 
-      <div className={clsx(`mbl-nav ${isOpen ? "page-burger-open" : ""}`)}>
-        <NavLink
-          className={({ isActive }) =>
-            clsx("nav-link", { "nav-link-active": isActive })
-          }
-          to="/"
-        >
-          HOME
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            clsx("nav-link", { "nav-link-active": isActive })
-          }
-          to="/about"
-        >
-          ABOUT
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            clsx("nav-link", { "nav-link-active": isActive })
-          }
-          to="/kupuna"
-        >
-          KUPUNA
-        </NavLink>
-        {/* <NavLink
+      {isOpen && (
+        <div className={clsx(`mbl-nav ${isOpen ? "page-burger-open" : ""}`)}>
+          <NavLink
+            className={({ isActive }) =>
+              clsx("nav-link", { "nav-link-active": isActive })
+            }
+            to="/"
+          >
+            HOME
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              clsx("nav-link", { "nav-link-active": isActive })
+            }
+            to="/about"
+          >
+            ABOUT
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              clsx("nav-link", { "nav-link-active": isActive })
+            }
+            to="/kupuna"
+          >
+            KUPUNA
+          </NavLink>
+          {/* <NavLink
           className={({ isActive }) =>
             clsx("nav-link", { "nav-link-active": isActive })
           }
@@ -44,31 +45,32 @@ export const Burger = () => {
           GALLERY
         </NavLink> */}
 
-        <NavLink
-          className={({ isActive }) =>
-            clsx("nav-link", { "nav-link-active": isActive })
-          }
-          to="/contact"
-        >
-          CONTACT
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            clsx("nav-link", { "nav-link-active": isActive })
-          }
-          to="/blog"
-        >
-          MEDIA
-        </NavLink>
-        <NavLink
-          className={({ isActive }) =>
-            clsx("nav-link", { "nav-link-active": isActive })
-          }
-          to="/events"
-        >
-          EVENTS
-        </NavLink>
-      </div>
+          <NavLink
+            className={({ isActive }) =>
+              clsx("nav-link", { "nav-link-active": isActive })
+            }
+            to="/contact"
+          >
+            CONTACT
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              clsx("nav-link", { "nav-link-active": isActive })
+            }
+            to="/blog"
+          >
+            MEDIA
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              clsx("nav-link", { "nav-link-active": isActive })
+            }
+            to="/events"
+          >
+            EVENTS
+          </NavLink>
+        </div>
+      )}
     </div>
   );
 };
