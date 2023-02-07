@@ -5,6 +5,9 @@ import homePic from "../images/home-pic.png";
 import React from "react";
 import ReactPlayer from "react-player/youtube";
 import thumbnail from "../images/youtube-thumbnail.png";
+import { VideoCarousel } from "./VideoCarousel";
+import { Link } from "react-router-dom";
+import { VideoSection } from "./VideoSection";
 
 export const Home = () => {
   const playerRef = React.useRef(null);
@@ -30,6 +33,11 @@ export const Home = () => {
             prayer. The Pihana ka `Ikena mission is to address the various
             health, social, and economic disparities afflicting Native Hawaiians
             through education of Hawaiian cultural practices.
+          </div>
+          <div className="btn-2-container">
+            <Link to="/blog" className="btn-2">
+              Read More
+            </Link>
           </div>
         </div>
       </div>
@@ -60,6 +68,10 @@ export const Home = () => {
             light={thumbnail}
           />
         </div>
+      </div>
+
+      <div>
+        <VideoSection />
       </div>
       <Footer />
     </div>

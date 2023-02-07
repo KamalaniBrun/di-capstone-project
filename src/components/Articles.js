@@ -4,6 +4,7 @@ export const Articles = () => {
       {/* <h1 className="article-header">In the News</h1> */}
       <h1>Articles</h1>
       <h2 className="article-header">In the News</h2>
+
       <div className="card-container">
         <div className="card">
           <h4 className="article">Sharing Culture</h4>
