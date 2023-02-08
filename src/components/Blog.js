@@ -3,7 +3,8 @@ import { Footer } from "./Footer";
 import { Navbar } from "./Navbar";
 import { useEffect, useState } from "react";
 import { getWithExpiry, setWithExpiry } from "./localstorage-utils";
-import { VideoSection } from "./VideoSection";
+// import { VideoSection } from "./VideoSection";
+
 export const Blog = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {

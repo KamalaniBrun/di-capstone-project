@@ -5,9 +5,9 @@ import homePic from "../images/home-pic.png";
 import React from "react";
 import ReactPlayer from "react-player/youtube";
 import thumbnail from "../images/youtube-thumbnail.png";
-import { VideoCarousel } from "./VideoCarousel";
+// import { VideoCarousel } from "./VideoCarousel";
 import { Link } from "react-router-dom";
-import { VideoSection } from "./VideoSection";
+// import { VideoSection } from "./VideoSection";
 
 export const Home = () => {
   const playerRef = React.useRef(null);
