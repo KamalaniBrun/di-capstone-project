@@ -1,9 +1,3 @@
-.home-page {
-  /* background-image: url("../images/wood-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover; */
-}
-
 .section-1 {
   display: flex;
   flex-direction: row;
@@ -85,7 +79,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 80%;
+  width: 79%;
   margin: auto;
 }
 
@@ -139,7 +133,18 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .section-header {
+    padding: 20px;
+  }
+}
+
 @media screen and (max-width: 765px) {
+  .home-page {
+    width: 100%;
+    margin: auto;
+  }
+
   .section-1-right {
     width: 70%;
   }

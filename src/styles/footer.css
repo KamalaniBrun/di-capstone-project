@@ -9,6 +9,10 @@
   /* align-self: baseline; */
 }
 
+.footer-header {
+  margin-left: 20px;
+}
+
 .footer-body {
   display: flex;
   align-items: center;
@@ -28,7 +32,7 @@
 .footer-made {
   display: flex;
   color: gray;
-  width: 30%;
+  width: 50%;
   align-items: flex-end;
   justify-content: flex-end;
   margin-right: 20px;

@@ -49,3 +49,9 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 756px) {
+  .hamburger {
+    width: 100%;
+  }
+}

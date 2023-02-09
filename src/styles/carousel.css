@@ -61,9 +61,11 @@
   color: white;
 }
 
-@media screen and (max-width: 1024px) {
-  /* .carousel-item { */
-  /* height: 18rem; */
-  /* height: 320px; */
-  /* } */
+@media screen and (max-width: 756px) {
+  .carousel {
+    width: 100%;
+  }
+  .indicators {
+    display: none;
+  }
 }

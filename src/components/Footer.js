@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <div className="title-header">
+        <div className="footer-header">
           <Link className="title" to="/">
             Pihanaka`ikena o Kaua`i
           </Link>

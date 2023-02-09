@@ -22,7 +22,7 @@ export const Blog = () => {
     })();
   }, []);
 
-  // console.log(posts);
+  console.log(posts);
 
   const getDescription = (html) => {
     const el = document.createElement("div");
