@@ -78,18 +78,24 @@ export const Contact = () => {
           <Burger />
         </div>
       </nav>
+
+      {/* <Navbar /> */}
+
       <header className="page-header">CONTACT US</header>
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLScSmuwWdPkScEQj1SgNaOIObzWLHa5jdbhehGfCT0jjGscqow/viewform?embedded=true"
-        title="Contact Form"
-        width="640"
-        height="812"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
-        Loading…
-      </iframe>
+      <div className="iframe-wrapper">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLScSmuwWdPkScEQj1SgNaOIObzWLHa5jdbhehGfCT0jjGscqow/viewform?embedded=true"
+          title="Contact Form"
+          width="70%"
+          // height="812"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >
+          Loading…
+        </iframe>
+      </div>
+
       <Footer />
     </div>
   );

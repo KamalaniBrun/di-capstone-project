@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 1080px;
   background-image: url("../images/fern-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,4 +11,16 @@
 
 .page-header {
   width: 100%;
+}
+
+.iframe-wrapper {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.iframe-wrapper > iframe {
+  width: 150%;
+  height: 100%;
 }
