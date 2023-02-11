@@ -6,6 +6,7 @@
   margin-top: 20px;
   height: 13rem;
   width: 100%;
+  line-height: 23px;
   /* align-self: baseline; */
 }
 
@@ -32,11 +33,41 @@
 .footer-made {
   display: flex;
   color: gray;
-  width: 50%;
+
   align-items: flex-end;
   justify-content: flex-end;
   margin-right: 20px;
   font-size: small;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+
+.sm-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.sm-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 12px;
+  margin: 10px 0 10px 0;
+  padding: 5px 3px 0 3px;
 }
 
 /* .footer-links {
@@ -71,5 +102,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 0;
   }
 }

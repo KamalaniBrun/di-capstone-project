@@ -59,8 +59,8 @@ export const Home = () => {
         <div className="section-1-right">
           <ReactPlayer
             className="thumbnail"
-            width="500px"
-            height="305px"
+            // width="500px"
+            // height="305px"
             ref={playerRef}
             url="https://www.youtube.com/embed/CgVrCkRdbK4"
             playing

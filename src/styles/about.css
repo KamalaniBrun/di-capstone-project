@@ -1,6 +1,7 @@
 .about-page {
   width: 100%;
   margin: auto;
+  line-height: 23px;
   /* background-image: url("../images/fern-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover; */
@@ -76,8 +77,14 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 12rem;
-  /* width: 70%; */
+  width: 80%;
+}
+
+.practitioner-section-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 80%;
 }
 
 .practitioner-left {
@@ -90,7 +97,7 @@
 
 .board-section-header {
   margin: 30px 0 10px 0;
-  text-align: start;
+  text-align: center;
   width: 100%;
 }
 
@@ -108,7 +115,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 30%;
   padding-left: 60px;
 }
 
@@ -116,14 +123,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 14rem;
-  margin: 30px;
-  margin-left: 100px;
+  width: 12rem;
+  margin-top: 30px;
+  margin-left: 6.25rem;
   border: solid 0.5px;
   box-shadow: 0 5px 7px #00000060;
 }
 
-@media screen and (max-width: 1100px) {
+.practitioner-img-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+  margin-top: 30px;
+  margin-right: 6.25rem;
+  border: solid 0.5px;
+  box-shadow: 0 5px 7px #00000060;
+}
+
+/* @media screen and (max-width: 1100px) {
   .practitioners {
     margin: auto;
     padding-left: 0;
@@ -139,6 +157,16 @@
     margin-left: 0;
   }
 
+  .practitioner-section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
   .practitioner-left {
     display: flex;
     flex-direction: column;
@@ -147,13 +175,7 @@
     width: 75%;
   }
 
-  .practitioner-body {
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    width: 70%;
-    margin: auto;
-  }
+  
 
   .practitioner-img {
     margin-bottom: 50px;
@@ -163,9 +185,9 @@
   .board-section-header {
     text-align: center;
   }
-}
+} */
 
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1024px) {
   .practitioners {
     margin: 0;
     padding-left: 0;
@@ -184,7 +206,64 @@
     /* padding-left: 150px; */
   }
 
+  .practitioner-section-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    /* align-items: flex-start; */
+    justify-content: center;
+    text-align: start;
+    width: 100%;
+    margin-left: 0;
+    width: 75%;
+    margin: auto;
+    /* padding-left: 150px; */
+  }
+
   .practitioner-left {
     text-align: start;
+  }
+
+  .board-section-header {
+    text-align: start;
+    /* padding-left: 10px; */
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .practitioner-left {
+    font-size: small;
+    line-height: 18px;
+  }
+
+  .practitioner-body {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 70%; */
+    margin: auto;
+  }
+
+  .practitioner-img {
+    width: 7rem;
+    margin: 20px;
+    margin-left: 3rem;
+  }
+
+  .practitioner-img-2 {
+    width: 7rem;
+    margin: 20px;
+    margin-right: 3rem;
+  }
+
+  .practitioner-img-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding-right: 60px;
+  }
+
+  .board-section-header {
+    text-align: center;
   }
 }

@@ -24,7 +24,7 @@ export const About = () => {
             <h4 className="board-section-header">
               Sean Chun (Board President)
             </h4>
-            <p>
+            <p className="practitioner-body">
               Sean A. Chun lives in Wailua and is currently employed by Ho`ola
               Lahui Hawai`i as the Native Hawaiian Traditional Healing
               Practitioner. He is also the <em>po`o</em> of the Kaua`i Kupuna
@@ -43,12 +43,12 @@ export const About = () => {
           </div>
         </div>
 
-        <div className="practitioner-section">
+        <div className="practitioner-section-2">
           <div className="practitioner-left">
             <h4 className="board-section-header">
               Maco Wai`ale`ale (Board Vice President)
             </h4>
-            <p>
+            <p className="practitioner-body">
               Maco Wai`ale`ale has owned and operated her massage clinic for
               more than 40 years. Maco is the vice president of Pihana ka
               `Ikena. She was a student of Aunty Margaret Machado, Papa Henry
@@ -57,7 +57,11 @@ export const About = () => {
             </p>
           </div>
           <div className="practitioner-img-containter">
-            <img className="practitioner-img" src={macoLomi} alt="maco-lomi" />
+            <img
+              className="practitioner-img-2"
+              src={macoLomi}
+              alt="maco-lomi"
+            />
           </div>
         </div>
 
@@ -75,7 +79,7 @@ export const About = () => {
           </div>
         </div>
 
-        <div className="practitioner-section">
+        <div className="practitioner-section-2">
           <div className="practitioner-left">
             <h4 className="board-section-header">Ginger Saiki</h4>
             <p>
@@ -88,7 +92,7 @@ export const About = () => {
             </p>
           </div>
           <div className="practitioner-img-containter">
-            <img className="practitioner-img" src={ginger} alt="ginger" />
+            <img className="practitioner-img-2" src={ginger} alt="ginger" />
           </div>
         </div>
 

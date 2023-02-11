@@ -1,5 +1,7 @@
 import clsx from "clsx";
 import { Link, NavLink } from "react-router-dom";
+import facebook from "../images/icons8-facebook-50.png";
+import instagram from "../images/icons8-instagram-50.png";
 
 export const Footer = () => {
   return (
@@ -61,8 +63,29 @@ export const Footer = () => {
           EVENTS
         </NavLink>
       </div> */}
-
-      <div className="footer-made">Made by Dev-Island</div>
+      <div className="footer-right">
+        <div className="footer-made">Made by Dev-Island</div>
+        <div className="sm-icons">
+          <div className="sm-icon">
+            <a
+              href="https://www.facebook.com/profile.php?id=100064469121148"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={facebook} alt="facebook" />
+            </a>
+          </div>
+          <div className="sm-icon">
+            <a
+              href="https://www.instagram.com/kamakeachun/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={instagram} alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
   );
 };

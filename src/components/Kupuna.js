@@ -43,7 +43,7 @@ export const Kupuna = () => {
           </div>
         </div>
 
-        <div className="practitioner-section">
+        <div className="practitioner-section-2">
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Aunty Margaret Machado</h4>
             <div className="practitioner-body">
@@ -53,9 +53,9 @@ export const Kupuna = () => {
               style of <em> lomilomi</em>.
             </div>
           </div>
-          <div className="practitioner-img-container">
+          <div className="practitioner-img-container-2">
             <img
-              className="practitioner-img"
+              className="practitioner-img-2"
               src={auntyMargaret}
               alt="margaret-machado"
             />
@@ -76,7 +76,7 @@ export const Kupuna = () => {
           </div>
         </div>
 
-        <div className="practitioner-section">
+        <div className="practitioner-section-2">
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Aunty Ilei Beniamina</h4>
             <div className="practitioner-body">
@@ -86,8 +86,8 @@ export const Kupuna = () => {
               Punana Leo and the Native Hawaiian Health System here on Kaua`i.
             </div>
           </div>
-          <div className="practitioner-img-container">
-            <img className="practitioner-img" src={ilei} alt="ilei" />
+          <div className="practitioner-img-container-2">
+            <img className="practitioner-img-2" src={ilei} alt="ilei" />
           </div>
         </div>
 
@@ -106,7 +106,7 @@ export const Kupuna = () => {
           </div>
         </div>
 
-        <div className="practitioner-section">
+        <div className="practitioner-section-2">
           <div className="practitioner-section-left">
             <h4 className="board-section-header">Kumu Levon Ohai</h4>
             <div className="practitioner-body">
@@ -117,8 +117,8 @@ export const Kupuna = () => {
               of <em>la`au lapa`au</em>.{" "}
             </div>
           </div>
-          <div className="practitioner-img-container">
-            <img className="practitioner-img" src={ohai} alt="ohai" />
+          <div className="practitioner-img-container-2">
+            <img className="practitioner-img-2" src={ohai} alt="ohai" />
           </div>
         </div>
 

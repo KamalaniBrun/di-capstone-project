@@ -53,7 +53,7 @@
   margin-bottom: 10px;
   border-radius: 8px;
   white-space: normal;
-  font-size: small;
+  font-size: medium;
 }
 
 .btn {
@@ -73,7 +73,25 @@
   color: #d3d3d3;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  .item-body {
+    /* display: flex; */
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: flex-start;
+    justify-content: center;
+    width: 80%;
+    background-color: #37373760;
+    box-shadow: 0 3px 5px #00000060;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    white-space: normal;
+    /* font-size: small; */
+  }
+}
+
+@media screen and (max-width: 756px) {
   .item1,
   .item2,
   .item3 {
@@ -83,5 +101,6 @@
 
   .item-body {
     font-size: small;
+    line-height: 19px;
   }
 }
