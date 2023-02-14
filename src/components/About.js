@@ -68,7 +68,7 @@ export const About = () => {
         <div className="practitioner-section">
           <div className="practitioner-left">
             <h4 className="board-section-header">Gwen Cardejon</h4>
-            <p>
+            <p className="practitioner-body">
               Gwen Cardejon was a student of Aunty Mahi Poepoe and carries on
               the tradition of <em> lomilomi kua lua</em>. She was also a
               student of Papa Tom Takahashi.
@@ -82,7 +82,7 @@ export const About = () => {
         <div className="practitioner-section-2">
           <div className="practitioner-left">
             <h4 className="board-section-header">Ginger Saiki</h4>
-            <p>
+            <p className="practitioner-body">
               Ginger Saiki lives in Wailua and has been a practitioner of
               <em> ho`oponopono</em> with Aunty Malia Craver and{" "}
               <em>la`au lapa`au</em> under Levon Ohai. Ginger is also on the
@@ -99,7 +99,7 @@ export const About = () => {
         <div className="practitioner-section">
           <div className="practitioner-left">
             <h4 className="board-section-header">Kau`ilani Kahalewai</h4>
-            <p>
+            <p className="practitioner-body">
               Kau`ilani Kahalewai has been a Hawaiian Practitioner specializing
               in <em> Ho’oponopono</em> since 1997. She began studying under her
               teachers, Norma Takeshita and Miriam Kaohi-Joseah and worked

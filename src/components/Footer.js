@@ -72,7 +72,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={facebook} alt="facebook" />
+              <img className="facebook" src={facebook} alt="facebook" />
             </a>
           </div>
           <div className="sm-icon">
@@ -81,7 +81,7 @@ export const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={instagram} alt="instagram" />
+              <img className="instagram" src={instagram} alt="instagram" />
             </a>
           </div>
         </div>
