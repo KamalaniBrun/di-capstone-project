@@ -1,5 +1,4 @@
-import clsx from "clsx";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import facebook from "../images/icons8-facebook-50.png";
 import instagram from "../images/icons8-instagram-50.png";
 

@@ -2,7 +2,6 @@ import clsx from "clsx";
 import { Link, NavLink } from "react-router-dom";
 import { Burger } from "./Burger";
 import { Footer } from "./Footer";
-import { Navbar } from "./Navbar";
 
 export const Contact = () => {
   return (
