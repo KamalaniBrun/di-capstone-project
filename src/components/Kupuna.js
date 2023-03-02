@@ -7,7 +7,7 @@ import wong from "../images/kupuna/Wong.jpg";
 import ohai from "../images/kupuna/pict/Ohai.jpg";
 import papaTom from "../images/kupuna/pict/Papa Tom.jpg";
 import { Footer } from "./Footer";
-import kupunaBanner from "../images/kupuna/kupuna-banner.png";
+import kupunaBanner from "../images/loi-banner.png";
 
 export const Kupuna = () => {
   return (
