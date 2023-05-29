@@ -69,6 +69,12 @@ export const Burger = () => {
           >
             EVENTS
           </NavLink>
+          <a
+            className="btn2-burger"
+            href="https://www.paypal.com/donate/?hosted_button_id=L3793XZHGCMAU"
+          >
+            DONATE
+          </a>
         </div>
       )}
     </div>

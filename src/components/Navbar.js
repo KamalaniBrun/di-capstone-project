@@ -88,6 +88,13 @@ export const Navbar = () => {
           >
             EVENTS
           </NavLink>
+
+          <a
+            className="btn2"
+            href="https://www.paypal.com/donate/?hosted_button_id=L3793XZHGCMAU"
+          >
+            DONATE
+          </a>
         </div>
 
         <Burger />
